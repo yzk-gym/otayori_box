@@ -1,24 +1,12 @@
-# README
+# 説明書
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+お便りを送れる便利なやつをつくりたいプロジェクト！
 
-Things you may want to cover:
+## 開発環境
 
 * Ruby version
+    * 2.4.0
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 起動
+    * WebPackerを導入しているので、RailsとWebPackerの起動が必要
+        * foremanを導入しているので、`foreman start`で両方一度に起動できるよ
