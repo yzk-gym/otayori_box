@@ -10,3 +10,8 @@
 * 起動
     * WebPackerを導入しているので、RailsとWebPackerの起動が必要
         * foremanを導入しているので、`foreman start`で両方一度に起動できるよ
+
+### TIPS
+
+#### gem mysql2のbundle installに失敗する場合
+`xcode-select --install` を叩く
