@@ -1,2 +1,2 @@
-rails: PORT=3000 rails s
+rails: bundle exec rails s -b 0.0.0.0 -p 3000
 webpack: bin/webpack-dev-server
